@@ -1,0 +1,16 @@
+1) Instalar AppServ versión 8.6
+	*En la instalación, colocar contraseña : 1234567-
+
+2) Acceder a phpMyAdmin en el navegador web (dirección: http://localhost/phpMyAdmin).
+	*usuario: root
+	*contraseña: 1234567-
+
+3) crear manualmente base de datos (nombre: bingolasvegas).
+
+4) Descargar repositorio
+
+5) Importar base de datos (archivo bingolasvegas.sql).
+
+6) Copiar y pegar carpeta del repositorio en esta dirección en el explorador de archivos (C:\AppServ\www)
+
+7) Acceder en el navegador web (direccion: http://localhost/bingolasvegas)
