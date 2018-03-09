@@ -15,9 +15,11 @@ jQuery(document).ready(function(){
 			
 			$.post("sesion_codigo_autenticar.php",$("#frmlogin").serialize(),function(res){
 				
-				if(res < 0)
+				if(res==-1)
 					swal("¡Error!", "Login y/o Clave incorrectos", "error");
-				else if (res = 1)
+				else if(res==-2)
+					swal("¡Error!", "Usuario inactivo", "error");
+				else if (res == 1)
 					window.location.replace('app/index.php');
                 else
                 	swal("¡Error!", "Error con la Base de Datos", "error");
