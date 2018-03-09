@@ -99,7 +99,7 @@
 
                                 <label for="login2" class="col-sm-2 control-label">Login</label>
                                   <div class="col-sm-3">
-                                    <input type="text" class="form-control" value="" name="login2" id="login2" placeholder="Ej: 17897657" />
+                                    <input type="text" class="form-control" value="" name="login2" id="login2" placeholder="Ej: jpunchiluppy" />
                                   </div>
                                 
                             </div>
